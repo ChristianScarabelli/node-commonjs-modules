@@ -4,10 +4,10 @@ La funzione dovrebbe restituire un oggetto con una proprietà hobbies, che è un
 Esporta la funzione dal file.
 */
 
-const hobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
+const createHobbies = (hobbyOne, hobbyTwo, hobbyThree) => {
     return {
         hobbies: [hobbyOne, hobbyTwo, hobbyThree]
     }
 }
 
-module.exports = hobbies
+module.exports = createHobbies
